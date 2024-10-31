@@ -1,6 +1,6 @@
 DESC
 
-# P6CDKName
+# P6CDKGHARole
 
 ## LICENSE
 
@@ -8,15 +8,18 @@ DESC
 
 ## Other
 
-![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod) ![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=p6m7g8_p6-template-cdk-construct-eslint-npm-ts-flatfile&metric=alert_status) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/p6m7g8/p6-template-cdk-construct-eslint-npm-ts-flatfile) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/p6m7g8/p6-template-cdk-construct-eslint-npm-ts-flatfile)
+![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod) ![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=p6m7g8_p6-cdk-gha-role&metric=alert_status) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/p6m7g8/p6-cdk-gha-role) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/p6m7g8/p6-cdk-gha-role)
 
 ## Usage
 
 ```ts
 ...
-import { P6CDKName } from 'p6-cdk-name';
+import { P6CDKGHARole } from 'p6-cdk-gha-role';
 
-new P6CDKName(this, 'P6CDKName', {
+new P6CDKGHARole(this, 'P6CDKGHARole', {
+  principle: arn,
+  repo: 'org/repo',
+  policies: []
 });
 ```
 
