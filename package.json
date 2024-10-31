@@ -1,9 +1,9 @@
 {
-  "name": "p6-cdk-name",
-  "description": "DESC",
+  "name": "p6-cdk-gha-role",
+  "description": "AWS CDK: An IAM Role for Github Actions to Assume",
   "repository": {
     "type": "git",
-    "url": "https://github.com/p6m7g8/p6-template-cdk-construct-eslint-yarn-ts-flatfile.git"
+    "url": "https://github.com/p6m7g8/p6-cdk-gha-role.git"
   },
   "scripts": {
     "act:build": "act --container-architecture linux/amd64 --container-daemon-socket - --container-options \"--memory 4g\" -j build",
@@ -96,22 +96,22 @@
     },
     "targets": {
       "java": {
-        "package": "com.github.p6m7g8.p6cdkname",
+        "package": "com.github.p6m7g8.p6cdkgharole",
         "maven": {
           "groupId": "com.github.p6m7g8",
-          "artifactId": "p6-cdk-name"
+          "artifactId": "p6-cdk-gha-role"
         }
       },
       "python": {
-        "distName": "p6-cdk-name",
-        "module": "p6_cdk_name"
+        "distName": "p6-cdk-gha-role",
+        "module": "p6_cdk_gha_role"
       },
       "dotnet": {
-        "namespace": "P6m7g8.P6CDKName",
-        "packageId": "P6m7g8.P6CDKName"
+        "namespace": "P6m7g8.P6CDKGHARole",
+        "packageId": "P6m7g8.P6CDKGHARole"
       },
       "go": {
-        "moduleName": "github.com/p6m7g8/p6-template-cdk-construct-eslint-npm-ts-flatfile"
+        "moduleName": "github.com/p6m7g8/p6-cdk-gha-role"
       }
     }
   },

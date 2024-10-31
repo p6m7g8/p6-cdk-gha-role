@@ -1,1 +1,1 @@
-export * from './p6cdkname'
+export * from './p6cdkgharole'

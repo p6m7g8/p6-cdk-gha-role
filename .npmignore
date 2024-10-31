@@ -11,7 +11,7 @@ dist/
 src/
 test/
 node_modules/
-p6cdkname/
+p6cdkgharole/
 .gitignore
 .mergify.yml
 .node-version

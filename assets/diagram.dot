@@ -28,9 +28,31 @@ digraph "Diagram" {
     margin = 8,
   ];
   subgraph "VisualizeStack" {
-    "VisualizeStack" [
-      label = " VisualizeStack",
-      fontsize = 12,
-    ];
+    subgraph "cluster-SubGraph.VisualizeStack" {
+      graph [
+        label = "VisualizeStack",
+        labelloc = "b",
+        labeljust = "l",
+        margin = "10",
+        fontsize = "16",
+        penwidth = "2",
+        pencolor = "#888888",
+        style = "filled,rounded",
+        fillcolor = "#e4e4e4",
+      ];
+      "VisualizeStack/MyP6Stack/gha-p6m7g8-p6-roles" [
+        label = " gha-p6m7g8-p6-roles",
+        fontsize = 12,
+        image = "/Users/pgollucci/.p6/p6m7g8/p6-cdk-gha-role/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+        imagescale = "true",
+        imagepos = "tc",
+        penwidth = "0",
+        shape = "node",
+        fixedsize = "true",
+        labelloc = "b",
+        width = 1.2,
+        height = 1.466,
+      ];
+    }
   }
 }
