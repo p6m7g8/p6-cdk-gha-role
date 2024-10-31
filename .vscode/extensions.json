@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "csstools.postcss", // PostCSS support for Tailwind and other CSS processing
+    "dbaeumer.vscode-eslint", // ESLint integration for linting and formatting
+    "eamodio.gitlens", // Enhanced Git features and Git history tracking
+    "firsttris.vscode-jest-runner", // Jest integration to run tests
+    "formulahendry.auto-close-tag", // Auto close tags for HTML/JSX
+    "formulahendry.auto-rename-tag", // Auto rename paired HTML/JSX tags
+    "foxundermoon.shell-format", // Shell script and dotenv file formatting
+    "github.vscode-pull-request-github", // GitHub integration for pull requests
+    "ms-vscode.vscode-typescript-next", // TypeScript and JavaScript tooling
+    "streetsidesoftware.code-spell-checker", // Spell checker for documentation, code comments, etc.
+    "syler.sass-indented", // SASS and CSS formatting support
+    "vscode.typescript-language-features", // TypeScript language features
+    "yzhang.markdown-all-in-one" // Markdown support for editing README and documentation
+  ]
+}

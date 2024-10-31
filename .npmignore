@@ -1,0 +1,32 @@
+.git/
+.github/
+.npmignore
+.vscode/
+.yarn/
+assets/
+bin/
+cdk.out/
+coverage/
+dist/
+src/
+test/
+node_modules/
+p6cdkname/
+.gitignore
+.mergify.yml
+.node-version
+.yarnrc.yml
+cdk.json
+eslint.config.mjs
+jest.config.js
+tsconfig.json
+tsconfig.dev.json
+yarn.lock
+
+
+# Exclude jsii outdir
+dist
+
+# Include .jsii and .jsii.gz
+!.jsii
+!.jsii.gz
