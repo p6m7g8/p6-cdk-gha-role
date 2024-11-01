@@ -30,7 +30,7 @@ jobs:
         id: bump
         run: |
           bin/version.bash
-          if grep -E "^- (fix|feat|major)\!*" dist/changelog.md; then
+          if grep -E "^- (chore|fix|feat|major)\!*" dist/changelog.md; then
             echo "bump=true" >> $GITHUB_OUTPUT
           else
             echo "bump=false" >> $GITHUB_OUTPUT
