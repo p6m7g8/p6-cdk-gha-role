@@ -7,36 +7,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     container:
       image: jsii/superchain:1-bookworm-slim-node22
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4.2.2
-      - name: Restore NPM node_modules
-        uses: actions/cache/restore@v4.1.2
+      - name: CDK Construct Build
+        uses: p6m7g8-actions/cdk-construct-build@main
         with:
-          path: node_modules
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node_modules-
-      - name: Install node_modules
-        run: |
-          sudo corepack enable
-          yarn install
-      - name: Cache NPM dependencies
-        uses: actions/cache@v4.1.2
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node_modules-
-      - name: Run build
-        run: yarn run ci:gha
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4.6.0
-        with:
-          directory: coverage
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      - name: Run Package
-        run: yarn run jsii:pacmak:parallel
+          aws_region: ${{ secrets.CDK_DEPLOY_REGION }}
+          aws_role: ${{ secrets.AWS_ROLE }}
+          aws_session_name: ${{ secrets.AWS_SESSION_NAME }}
+          cdk_deploy_account: ${{ secrets.CDK_DEPLOY_ACCOUNT }}
+          cdk_deploy_region: ${{ secrets.CDK_DEPLOY_REGION }}
