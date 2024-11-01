@@ -47,6 +47,9 @@
     "email": "pgollucci@p6m7g8.com",
     "organization": true
   },
+  "engines": {
+    "node": ">= 22.10.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
     "@types/jest": "^29.5.14",
