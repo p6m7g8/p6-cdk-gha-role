@@ -10,7 +10,7 @@ jobs:
     permissions:
       id-token: write
     container:
-      image: jsii/superchain:1-bookworm-slim-node22
+      image: jsii/superchain:1-bookworm-slim-node24
     steps:
       - name: CDK Construct Build
         uses: p6m7g8-actions/cdk-construct-build@main

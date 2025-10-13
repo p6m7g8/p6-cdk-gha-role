@@ -48,38 +48,38 @@
     "organization": true
   },
   "engines": {
-    "node": ">= 22.10.0"
+    "node": ">= 24.9.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.8.0",
-    "@types/jest": "^29.5.14",
-    "@types/node": "22.8.4",
-    "@typescript-eslint/eslint-plugin": "^8.12.2",
-    "@typescript-eslint/parser": "^8.12.2",
-    "aws-cdk": "^2.164.1",
-    "aws-cdk-lib": "2.164.1",
-    "cdk-dia": "^0.11.0",
-    "constructs": "10.4.2",
-    "eslint": "^9.13.0",
-    "eslint-plugin-import": "^2.31.0",
+    "@antfu/eslint-config": "^5.4.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.7.2",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
+    "aws-cdk": "^2.1030.0",
+    "aws-cdk-lib": "^2.219.0",
+    "cdk-dia": "^0.12.1",
+    "constructs": "^10.4.2",
+    "eslint": "^9.37.0",
+    "eslint-plugin-import": "^2.32.0",
     "http-server": "^14.1.1",
-    "jest": "^29.7.0",
-    "jsii": "^5.5.4",
-    "jsii-diff": "^1.104.0",
-    "jsii-docgen": "^10.5.5",
-    "jsii-pacmak": "^1.104.0",
-    "jsii-rosetta": "^5.5.5",
-    "publib": "^0.2.907",
-    "ts-jest": "^29.2.5",
+    "jest": "^30.2.0",
+    "jsii": "^5.9.7",
+    "jsii-diff": "^1.115.0",
+    "jsii-docgen": "^10.10.0",
+    "jsii-pacmak": "^1.115.0",
+    "jsii-rosetta": "^5.9.8",
+    "publib": "^0.2.1023",
+    "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
-    "typescript": "~5.6.3"
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "2.164.1",
+    "aws-cdk-lib": "2.219.0",
     "constructs": "^10.4.2"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.164.1",
+    "aws-cdk-lib": "^2.219.0",
     "constructs": "^10.4.2"
   },
   "bundledDependencies": [],
@@ -118,5 +118,5 @@
       }
     }
   },
-  "packageManager": "yarn@4.5.2+sha512.570504f67349ef26d2d86a768dc5ec976ead977aa086b0bb4237e97d5db7ae5c620f9f0e0edf3ea5047205063faff102bf2a2d778664a94eaaa1085ad483fe2e"
+  "packageManager": "yarn@4.10.3+sha512.c38cafb5c7bb273f3926d04e55e1d8c9dfa7d9c3ea1f36a4868fa028b9e5f72298f0b7f401ad5eb921749eb012eb1c3bb74bf7503df3ee43fd600d14a018266f"
 }

@@ -42,6 +42,7 @@
   "typescript.referencesCodeLens.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "cSpell.words": [
+    "cdkgharole",
     "cdkname",
     "cdkstack",
     "corepack",
