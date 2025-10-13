@@ -8,6 +8,9 @@ on:
 jobs:
   upgrade:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Upgrade Deps
         uses: p6m7g8-actions/cdk-construct-upgrade@main
