@@ -7358,7 +7358,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii@npm:^5.9.7, jsii@npm:~5.9.1":
+"jsii@npm:^5.9.8":
+  version: 5.9.8
+  resolution: "jsii@npm:5.9.8"
+  dependencies:
+    "@jsii/check-node": "npm:1.115.0"
+    "@jsii/spec": "npm:1.115.0"
+    case: "npm:^1.6.3"
+    chalk: "npm:^4"
+    fast-deep-equal: "npm:^3.1.3"
+    log4js: "npm:^6.9.1"
+    semver: "npm:^7.7.3"
+    semver-intersect: "npm:^1.5.0"
+    sort-json: "npm:^2.0.1"
+    spdx-license-list: "npm:^6.10.0"
+    typescript: "npm:~5.9"
+    yargs: "npm:^17.7.2"
+  bin:
+    jsii: bin/jsii
+  checksum: 10c0/b9ac28354a97fd8209221396730c0512175909a7ad73b463369525ad21d1d345008f7ceca7e7d6be514ea4407e90d558864b2a65367852f779ca22414bb6a439
+  languageName: node
+  linkType: hard
+
+"jsii@npm:~5.9.1":
   version: 5.9.7
   resolution: "jsii@npm:5.9.7"
   dependencies:
@@ -8788,7 +8810,7 @@ __metadata:
     eslint-plugin-import: "npm:^2.32.0"
     http-server: "npm:^14.1.1"
     jest: "npm:^30.2.0"
-    jsii: "npm:^5.9.7"
+    jsii: "npm:^5.9.8"
     jsii-diff: "npm:^1.115.0"
     jsii-docgen: "npm:^10.10.0"
     jsii-pacmak: "npm:^1.115.0"
