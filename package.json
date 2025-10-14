@@ -54,10 +54,10 @@
     "@antfu/eslint-config": "^5.4.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.7.2",
-    "@typescript-eslint/eslint-plugin": "^8.46.0",
-    "@typescript-eslint/parser": "^8.46.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
     "aws-cdk": "^2.1030.0",
-    "aws-cdk-lib": "^2.219.0",
+    "aws-cdk-lib": "^2.220.0",
     "cdk-dia": "^0.12.1",
     "constructs": "^10.4.2",
     "eslint": "^9.37.0",
@@ -65,11 +65,11 @@
     "http-server": "^14.1.1",
     "jest": "^30.2.0",
     "jsii": "^5.9.8",
-    "jsii-diff": "^1.115.0",
-    "jsii-docgen": "^10.10.0",
-    "jsii-pacmak": "^1.115.0",
+    "jsii-diff": "^1.116.0",
+    "jsii-docgen": "^10.10.1",
+    "jsii-pacmak": "^1.116.0",
     "jsii-rosetta": "^5.9.8",
-    "publib": "^0.2.1023",
+    "publib": "^0.2.1024",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
@@ -79,7 +79,7 @@
     "constructs": "^10.4.2"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.219.0",
+    "aws-cdk-lib": "^2.220.0",
     "constructs": "^10.4.2"
   },
   "bundledDependencies": [],
