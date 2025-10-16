@@ -7478,9 +7478,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii-rosetta@npm:^5.9.8":
-  version: 5.9.8
-  resolution: "jsii-rosetta@npm:5.9.8"
+"jsii-rosetta@npm:^5.9.9":
+  version: 5.9.9
+  resolution: "jsii-rosetta@npm:5.9.9"
   dependencies:
     "@jsii/check-node": "npm:1.114.1"
     "@jsii/spec": "npm:^1.114.1"
@@ -7497,7 +7497,7 @@ __metadata:
     yargs: "npm:^17.7.2"
   bin:
     jsii-rosetta: bin/jsii-rosetta
-  checksum: 10c0/026a8bbd88b13b91a59afd67ef1e6cc80e0c2099d9b539f5f8420405630836b93ff016cff5f94789b0c2e3068d513b7a94d3b727f23d386071200e2a104986c6
+  checksum: 10c0/1fa3e2eee2a9f1e2d8add0d8754e1bdd30652b6273ca958708cb533baebeb5721d7c4fa319fe47e9e7cb1aa832b1aabf739dc31fef9540a3c0c57982e7eadb17
   languageName: node
   linkType: hard
 
@@ -8964,7 +8964,7 @@ __metadata:
     jsii-diff: "npm:^1.116.0"
     jsii-docgen: "npm:^10.10.1"
     jsii-pacmak: "npm:^1.116.0"
-    jsii-rosetta: "npm:^5.9.8"
+    jsii-rosetta: "npm:^5.9.9"
     publib: "npm:^0.2.1024"
     ts-jest: "npm:^29.4.5"
     ts-node: "npm:^10.9.2"
