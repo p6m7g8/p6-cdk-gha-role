@@ -7678,9 +7678,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsii-rosetta@npm:^5.9.13":
-  version: 5.9.13
-  resolution: "jsii-rosetta@npm:5.9.13"
+"jsii-rosetta@npm:^5.9.14":
+  version: 5.9.14
+  resolution: "jsii-rosetta@npm:5.9.14"
   dependencies:
     "@jsii/check-node": "npm:^1.118.0"
     "@jsii/spec": "npm:^1.118.0"
@@ -7697,13 +7697,13 @@ __metadata:
     yargs: "npm:^17.7.2"
   bin:
     jsii-rosetta: bin/jsii-rosetta
-  checksum: 10c0/c930acb43318d9d5ef84552a04e88aa3e06bf79511221d1b8ce4e3dff744fedbb4763593f4032f397168fed2ac2bdf272c9efe0c9d62ccc24212991fea9345c7
+  checksum: 10c0/e332c3be572a96f04f0dc7a82f4f529939407829d63165a2506b269fc0c84604931a2ae1592fd726c3636f06e47a448e7e96d9defa9a87a82521aa61c9acd2a1
   languageName: node
   linkType: hard
 
-"jsii@npm:^5.9.11":
-  version: 5.9.11
-  resolution: "jsii@npm:5.9.11"
+"jsii@npm:^5.9.13":
+  version: 5.9.13
+  resolution: "jsii@npm:5.9.13"
   dependencies:
     "@jsii/check-node": "npm:1.118.0"
     "@jsii/spec": "npm:1.118.0"
@@ -7719,7 +7719,7 @@ __metadata:
     yargs: "npm:^17.7.2"
   bin:
     jsii: bin/jsii
-  checksum: 10c0/b0aac12245fb733c8bab40b7ff5a11a94ee20fe13a8cf102a126362bf6bb6552729f528cce801d21176d8e2e8d8e13d0bd73215df262448ae4f98206a0011217
+  checksum: 10c0/266123ae2d07b66a6231e661b7b2205cf2a8804554a3904ada1c579f148476f5b219e73beda52018f0f0912b74415e03d5e5f9a140af1a544a9b17cfe8886ba7
   languageName: node
   linkType: hard
 
@@ -9142,11 +9142,11 @@ __metadata:
     eslint-plugin-import: "npm:^2.32.0"
     http-server: "npm:^14.1.1"
     jest: "npm:^30.2.0"
-    jsii: "npm:^5.9.11"
+    jsii: "npm:^5.9.13"
     jsii-diff: "npm:^1.118.0"
     jsii-docgen: "npm:^10.11.2"
     jsii-pacmak: "npm:^1.118.0"
-    jsii-rosetta: "npm:^5.9.13"
+    jsii-rosetta: "npm:^5.9.14"
     publib: "npm:^0.2.1025"
     ts-jest: "npm:^29.4.5"
     ts-node: "npm:^10.9.2"
