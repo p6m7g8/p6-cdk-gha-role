@@ -3870,9 +3870,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-cdk-lib@npm:^2.225.0":
-  version: 2.225.0
-  resolution: "aws-cdk-lib@npm:2.225.0"
+"aws-cdk-lib@npm:^2.227.0":
+  version: 2.227.0
+  resolution: "aws-cdk-lib@npm:2.227.0"
   dependencies:
     "@aws-cdk/asset-awscli-v1": "npm:2.2.242"
     "@aws-cdk/asset-node-proxy-agent-v6": "npm:^2.1.0"
@@ -3890,7 +3890,7 @@ __metadata:
     yaml: "npm:1.10.2"
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 10c0/d53c56dfb7a7c2725973542626d788744c2ed7863adc5a769cc0190b521248a64bfdc152451f56bd24bff2ca1e662ee8fba721c78e40be8521f07b33e7d9aabb
+  checksum: 10c0/e97d2a7549558d9dde21253eaf23c84cefee87dd501bddd563ae02fd7458dde2d348839ba5d409ee8bca51c01deff6124618bcbb293e003e22d5c7b12d1c9fe6
   languageName: node
   linkType: hard
 
@@ -9155,7 +9155,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^8.47.0"
     "@typescript-eslint/parser": "npm:^8.47.0"
     aws-cdk: "npm:^2.1033.0"
-    aws-cdk-lib: "npm:^2.225.0"
+    aws-cdk-lib: "npm:^2.227.0"
     cdk-dia: "npm:^0.12.1"
     constructs: "npm:^10.4.3"
     eslint: "npm:^9.39.1"
