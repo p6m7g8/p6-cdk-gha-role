@@ -15,9 +15,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/eslint-config@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "@antfu/eslint-config@npm:6.3.0"
+"@antfu/eslint-config@npm:^6.4.1":
+  version: 6.4.1
+  resolution: "@antfu/eslint-config@npm:6.4.1"
   dependencies:
     "@antfu/install-pkg": "npm:^1.1.0"
     "@clack/prompts": "npm:^0.11.0"
@@ -40,7 +40,7 @@ __metadata:
     eslint-plugin-n: "npm:^17.23.1"
     eslint-plugin-no-only-tests: "npm:^3.3.0"
     eslint-plugin-perfectionist: "npm:^4.15.1"
-    eslint-plugin-pnpm: "npm:^1.3.0"
+    eslint-plugin-pnpm: "npm:^1.4.0"
     eslint-plugin-regexp: "npm:^2.10.0"
     eslint-plugin-toml: "npm:^0.12.0"
     eslint-plugin-unicorn: "npm:^62.0.0"
@@ -54,7 +54,7 @@ __metadata:
     parse-gitignore: "npm:^2.0.0"
     toml-eslint-parser: "npm:^0.10.0"
     vue-eslint-parser: "npm:^10.2.0"
-    yaml-eslint-parser: "npm:^1.3.1"
+    yaml-eslint-parser: "npm:^1.3.2"
   peerDependencies:
     "@eslint-react/eslint-plugin": ^2.0.1
     "@next/eslint-plugin-next": ">=15.0.0"
@@ -108,7 +108,7 @@ __metadata:
       optional: true
   bin:
     eslint-config: bin/index.js
-  checksum: 10c0/7468629fd5bece441d38e4a01080b656edfb7cc80770af4f94722905885e367d132aeaece353cd1c0c26876cd40ee5147dab1d40456ed7f0ab14a8a4f2124135
+  checksum: 10c0/dcaa66ee7d13222d116f25cb2f202856d7c8ae00df36ef88609a3a5ee05487e795c5865c96ce24ff2af5aa34c92d8435318792c2468c60ce0939def1e46e7387
   languageName: node
   linkType: hard
 
@@ -5241,19 +5241,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-pnpm@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "eslint-plugin-pnpm@npm:1.3.0"
+"eslint-plugin-pnpm@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "eslint-plugin-pnpm@npm:1.4.0"
   dependencies:
     empathic: "npm:^2.0.0"
     jsonc-eslint-parser: "npm:^2.4.1"
     pathe: "npm:^2.0.3"
-    pnpm-workspace-yaml: "npm:1.3.0"
+    pnpm-workspace-yaml: "npm:1.4.0"
     tinyglobby: "npm:^0.2.15"
-    yaml-eslint-parser: "npm:^1.3.0"
+    yaml: "npm:^2.8.2"
+    yaml-eslint-parser: "npm:^1.3.2"
   peerDependencies:
     eslint: ^9.0.0
-  checksum: 10c0/a742c77e007f90d2c300b9e5fada724232498c56378bc84f28b0b4f117ab77a84396ca07f0c579226aea4b4fb94c560ab529769d9c1377b6a99a103491832461
+  checksum: 10c0/c0bfc12c954beb7f553553e874ff135082550711434ef76583e1375b0daa0d901ea3da7bcc42c4f30ae7bd56e9bcba0a92c45cddf2193bf82669d84090346d18
   languageName: node
   linkType: hard
 
@@ -9037,7 +9038,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "p6-cdk-gha-role@workspace:."
   dependencies:
-    "@antfu/eslint-config": "npm:^6.3.0"
+    "@antfu/eslint-config": "npm:^6.4.1"
     "@types/jest": "npm:^30.0.0"
     "@types/node": "npm:^24.10.1"
     "@typescript-eslint/eslint-plugin": "npm:^8.48.1"
@@ -9261,12 +9262,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pnpm-workspace-yaml@npm:1.3.0":
-  version: 1.3.0
-  resolution: "pnpm-workspace-yaml@npm:1.3.0"
+"pnpm-workspace-yaml@npm:1.4.0":
+  version: 1.4.0
+  resolution: "pnpm-workspace-yaml@npm:1.4.0"
   dependencies:
-    yaml: "npm:^2.8.1"
-  checksum: 10c0/d10254bbbfe6f18fd1db6d061e9b0ab66d20911d178332538058566ff7a878379e33b30136366ac3510dc4590cf9a644b2426f474c6196608bd28bba5b278f42
+    yaml: "npm:^2.8.2"
+  checksum: 10c0/08f40f98ee3e7f944df3a634dceb2c848652c6b0d5e94e67dcaeccd75d43d915cbaeb50afcfe93440cccfbead6da3bd2c3577ad1d130424599cd0a7b1d9e58cb
   languageName: node
   linkType: hard
 
@@ -11205,23 +11206,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml-eslint-parser@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "yaml-eslint-parser@npm:1.3.0"
+"yaml-eslint-parser@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "yaml-eslint-parser@npm:1.3.2"
   dependencies:
     eslint-visitor-keys: "npm:^3.0.0"
     yaml: "npm:^2.0.0"
-  checksum: 10c0/160a8dcb97e65e08de85069898379fbecad85838384797df9695f4cb51e48a195e57b3f3fc5abb35eec7c8d1329c3b7b92b12999f5f20c314d9a7d8d549de105
-  languageName: node
-  linkType: hard
-
-"yaml-eslint-parser@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "yaml-eslint-parser@npm:1.3.1"
-  dependencies:
-    eslint-visitor-keys: "npm:^3.0.0"
-    yaml: "npm:^2.0.0"
-  checksum: 10c0/85ebe072f06890c4b912b18dd8219425975d48f23e63bbcfc3fb828593b158de8645d6b0db7a03eee53269be84888657b4e3299323a8165369ba74b4edd80437
+  checksum: 10c0/c4b84c715f997216208be398c9869a225214b1a88963a7b0234e915b9b56acd7608d7ce06e584296fdbc67a32cdf37e57e94ea92f73278da161eaad9353ae25a
   languageName: node
   linkType: hard
 
@@ -11241,12 +11232,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.8.1":
-  version: 2.8.1
-  resolution: "yaml@npm:2.8.1"
+"yaml@npm:^2.8.2":
+  version: 2.8.2
+  resolution: "yaml@npm:2.8.2"
   bin:
     yaml: bin.mjs
-  checksum: 10c0/7c587be00d9303d2ae1566e03bc5bc7fe978ba0d9bf39cc418c3139d37929dfcb93a230d9749f2cb578b6aa5d9ebebc322415e4b653cb83acd8bc0bc321707f3
+  checksum: 10c0/703e4dc1e34b324aa66876d63618dcacb9ed49f7e7fe9b70f1e703645be8d640f68ab84f12b86df8ac960bac37acf5513e115de7c970940617ce0343c8c9cd96
   languageName: node
   linkType: hard
 
