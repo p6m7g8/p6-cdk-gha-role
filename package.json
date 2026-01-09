@@ -51,25 +51,25 @@
     "node": ">= 24.9.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.5.1",
+    "@antfu/eslint-config": "^6.7.3",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.10.2",
-    "@typescript-eslint/eslint-plugin": "^8.49.0",
-    "@typescript-eslint/parser": "^8.49.0",
-    "aws-cdk": "^2.1033.0",
-    "aws-cdk-lib": "^2.232.1",
+    "@types/node": "^25.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.52.0",
+    "@typescript-eslint/parser": "^8.52.0",
+    "aws-cdk": "^2.1100.3",
+    "aws-cdk-lib": "^2.234.1",
     "cdk-dia": "^0.12.1",
-    "constructs": "^10.4.3",
-    "eslint": "^9.39.1",
+    "constructs": "^10.4.4",
+    "eslint": "^9.39.2",
     "eslint-plugin-import": "^2.32.0",
     "http-server": "^14.1.1",
     "jest": "^30.2.0",
-    "jsii": "^5.9.14",
-    "jsii-diff": "^1.120.0",
-    "jsii-docgen": "^10.11.4",
-    "jsii-pacmak": "^1.120.0",
-    "jsii-rosetta": "^5.9.15",
-    "publib": "^0.2.1025",
+    "jsii": "^5.9.22",
+    "jsii-diff": "^1.125.0",
+    "jsii-docgen": "^10.11.11",
+    "jsii-pacmak": "^1.125.0",
+    "jsii-rosetta": "^5.9.25",
+    "publib": "^0.2.1027",
     "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
@@ -79,8 +79,8 @@
     "constructs": "^10.4.2"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.232.1",
-    "constructs": "^10.4.3"
+    "aws-cdk-lib": "^2.234.1",
+    "constructs": "^10.4.4"
   },
   "bundledDependencies": [],
   "keywords": [
