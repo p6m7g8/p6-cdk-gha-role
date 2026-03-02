@@ -15,4 +15,4 @@ jobs:
       - name: Upgrade Deps
         uses: p6m7g8-actions/cdk-construct-upgrade@main
         with:
-          gh_token: ${{ secrets.P6_PGOLLUCCI_GH_TOKEN }}
+          gh_token: ${{ secrets.P6_A_GH_TOKEN }}
